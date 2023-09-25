@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.main {
+  background-image: url('/night.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#form {
+  position: relative;
+  top: 70px;
+  left: 500px;
+  width: 550px;
+  height: 100px;
+}
+
+#input[type='text'] {
+  width: 350px;
+  height: 60px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px 60px;
+  color: #ffffff;
+  font-size: 30px;
+  border-radius: 0.5rem;
+  margin-right: 20px;
+}
+
+input[type='text']::placeholder {
+  color: #f3f3f3;
+  font-size: 30px;
+}
+
+input[type='submit'] {
+  position: relative;
+  bottom: 4px;
+  display: inline;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  cursor: pointer;
+  /* background-color: red; */
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  color: blue;
+}
+
+#error {
+  font-size: 20px;
+  color: red;
+  display: none;
+}
+
+#info {
+  width: 600px;
+  position: relative;
+  top: 300px;
+  left: 200px;
+  color: white;
+  font-size: 40px;
+}
+#weather-type {
+  font-size: 35px;
+}
+#city {
+  margin-bottom: 50px;
+}
+
+#temperature-info {
+  display: flex;
+  justify-content: space-between;
+}
+#celci {
+  font-size: 120px;
+}

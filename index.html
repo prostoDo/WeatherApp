@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <form id="form" action="">
+        <input id="input" type="text" placeholder="City name" />
+        <input type="submit" class="submit" value="Search" id="submit">
+        <span id="error">No matching location found!</span>
+      </form>
+      
+      
+      <div id="info">
+        <h3 id="weather-type">MOSTLY SUNNY</h3>
+        <h1 id="city">MOSCOW,RUSSIA</h1>
+        <div id="temperature-info">
+          <div id="temperature">
+            <h2 id="celci">32 F</h2>
+          </div>
+          <div id="other-info">
+            <p id="feels">FEELS LIKE:</p>
+            <p id="wind">WIND:</p>
+            <p id="humidity">HUMIDITY: 32</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
